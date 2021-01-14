@@ -59,15 +59,33 @@ figcaption{
 }
 
 .playlist-container{
-    display: flex;
+    display: flex;;
     flex-direction: column;
     align-self: baseline;
+    width: 100%;
     margin-top: 2rem;
 }
 .playlist-propo{
     display: flex;
     flex-direction: column;
     list-style: none;
+}
+h5{
+    font-size: 1em;
+    color: white;
+    text-decoration: underline;
+}
+.playlist-song{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: #FFB800;
+    background-color: black;
 }
 
 .nav-container{
